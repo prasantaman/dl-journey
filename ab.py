@@ -1,2 +1,0 @@
-print("Prasant")
-print("Pragati")
