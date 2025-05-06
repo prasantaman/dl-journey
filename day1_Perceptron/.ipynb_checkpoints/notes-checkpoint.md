@@ -1,9 +1,5 @@
 ---
 
-## ✅ Flashcards from Your Chat Discussion
-
----
-
 ### ❓ What is the **discriminant** in a quadratic equation?
 
 **✅ Answer:**  
@@ -97,9 +93,6 @@ It plots the **decision regions** of a classifier (`clf`) based on features `X` 
 
 ---
 
-Bahut badiya Prasant! Ab main tumhare ab tak ke topics se **interview-level aur thoda difficult flashcards** bana raha hoon — jo concepts deep hain aur interviewer confuse karne ke liye bhi pooch sakta hai. Yeh flashcards tumhare understanding ko next level tak le jaayenge 🚀
-
----
 ## ⚡ Advanced + Interview-Oriented Flashcards
 
 ---
