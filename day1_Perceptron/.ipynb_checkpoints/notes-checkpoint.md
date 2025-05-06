@@ -1,5 +1,3 @@
----
-
 ### ❓ What is the **discriminant** in a quadratic equation?
 
 **✅ Answer:**  
