@@ -89,3 +89,101 @@
 * Used in training large models
 * ImageNet Challenge (ILSVRC) made models like ResNet, VGG famous
 * Standard benchmark in computer vision
+  
+### 🔹 **Random Binary Mask**
+
+* A binary vector `rᵢ ~ Bernoulli(1 - p)` where each element is:
+
+  * `1` with probability `1 - p`
+  * `0` with probability `p`
+* Used in **Dropout** to randomly turn off neurons during training.
+
+---
+
+### 🔹 **Masked Input**
+
+* Formula: `x̃ᵢ = rᵢ ⋅ xᵢ`
+* Means: Only those inputs are kept active where mask value `rᵢ = 1`
+
+---
+
+### 🔹 **Forward Pass with Dropout**
+
+* Formula: `y = f(W ⋅ x̃ + b)`
+* Masked input `x̃` is passed through linear transformation + activation.
+
+---
+
+### 🔹 **Inference (Testing Time)**
+
+* Dropout is turned **off**.
+* Instead, weights are **scaled** by `(1 - p)` to match training behavior.
+
+---
+
+### 🔹 **Inference Meaning**
+
+* Inference = Testing / Prediction phase
+* No learning, just forward pass to get output from trained model
+
+---
+
+### 🔹 **VGG16**
+
+* Deep CNN architecture with 16 layers (13 conv + 3 FC)
+* Uses only 3×3 conv layers and 2×2 max-pooling
+* Architecture: Simple and uniform → Good for feature extraction
+
+---
+
+### 🔹 **Horizontal Flip**
+
+* Data augmentation technique
+* Image is flipped **left-right**
+* Helps model generalize better (like recognizing flipped objects)
+
+---
+
+### 🔹 **Contrast**
+
+* Difference between **dark and bright areas** in image
+* High contrast → Sharp image
+* Low contrast → Dull or faded image
+* Used in image augmentation for robustness
+
+---
+
+### 🔹 **+880 Code**
+
+* Country code for **Bangladesh** in international dialing
+
+---
+
+### 🔹 **One-Shot Learning**
+
+* Model learns from **just one example** per class
+* Used in tasks like Face ID, rare disease detection
+* Uses networks like Siamese Network, Prototypical Network
+
+---
+
+### 🔹 **Inception Network**
+
+* CNN architecture using multiple filter sizes (1x1, 3x3, 5x5, pooling) in **parallel**
+* Output of each is **concatenated**
+* Goal: capture features at multiple scales efficiently
+
+#### ✅ Benefits:
+
+* Better accuracy
+* Efficient computation
+* Less overfitting
+
+#### 🧱 Used In:
+
+* ImageNet classification
+* Face recognition
+* Medical imaging
+
+
+  
